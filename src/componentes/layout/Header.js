@@ -18,6 +18,9 @@ class Header extends Component {
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/nestedroutes">Nested Route</NavLink>
                     </li>
+                    <li className="nav-item">
+                        <NavLink className="nav-link" to="/prompt">Prompt Component</NavLink>
+                    </li>
                 </ul>
             </nav>
         );
