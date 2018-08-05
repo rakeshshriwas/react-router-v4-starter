@@ -16,10 +16,16 @@ class Header extends Component {
                         <NavLink className="nav-link" to="/contact">Contact</NavLink>
                     </li>
                     <li className="nav-item">
+                        <NavLink className="nav-link" to="/stores">Store</NavLink>
+                    </li>
+                    <li className="nav-item">
                         <NavLink className="nav-link" to="/nestedroutes">Nested Route</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/prompt">Prompt Component</NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink className="nav-link" to="/result?roll_num=12345">Query String</NavLink>
                     </li>
                 </ul>
             </nav>
